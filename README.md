@@ -7,7 +7,7 @@ A mobile app built using Kotlinand Jetpack Compose, providing travel information
 - Interactive map with clickable markers for each destination.
 - Offline images and descriptions of famous places.
 - View detailed information for each place in a clean interface.
-- Navigate through different screens (Home, Map, About).
+- Navigate through different screens (Home, Main, About).
 
 ## Project Structure
 
@@ -16,10 +16,9 @@ apptravel/
 ├── ui/
 │   ├── MainActivity.kt         # Entry point of the app
 │   ├── screen/
-│   │   ├── HomeScreen.kt       # Main content screen
-│   │   ├── MapScreen.kt        # Map with markers
-│   │   ├── AboutScreen.kt      # Info/about the app
-│   │   └── MainScreen.kt       # Navigation between screens
+│   │   ├── HomeScreen.kt       # The first screen, introducing the main functions of the application
+│   │   ├── AboutScreen.kt      # map + topic location filter buttons, information dialog box: displaying name + description + photo, GPS location button: navigating to the user's location.
+│   │   └── MainScreen.kt       # ntroducing members
 │   └── theme/
 │       ├── Color.kt
 │       ├── Theme.kt
