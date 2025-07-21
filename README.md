@@ -37,13 +37,13 @@ apptravel/
 # How to Run
 
 1. Clone or download this repository.
-2. Open the project in **Android Studio (Arctic Fox or later)**.
+2. Open the project in Android Studio (Arctic Fox or later).
 3. Connect an Android emulator or physical device.
 4. Build and run the app.
 
 ##  Assets
 
-- All images are stored in the `assets/images/` folder and loaded dynamically.
-- Place info is likely in a `.geojson` file, parsed on runtime.
+- All images are stored in the 'assets/images/' folder and loaded dynamically.
+- Place info is likely in a '.geojson' file, parsed on runtime.
 
 
