@@ -52,8 +52,6 @@ apptravel/
 - Thông tin địa điểm có thể nằm trong tệp '.geojson', được phân tích cú pháp khi chạy.
 
 
-## Kết quả
-markdown
-![giao diện trang chủ](images/homescreen.jpg)
+
 
 
