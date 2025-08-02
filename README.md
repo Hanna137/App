@@ -53,5 +53,5 @@ apptravel/
 
 
 ## Kết quả
-![Tên mô tả ảnh](đường_dẫn_ảnh hoặc URL)
+![Giao diện trang chủ](homescreen.jpg)
 
