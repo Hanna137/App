@@ -8,6 +8,7 @@ Một ứng dụng di động được xây dựng bằng Kotlinand Jetpack Comp
 - gradle.properties: toàn cấu hình biến
 - gradlew(.bat): Công cụ xây dựng dự án mà không cần cài đặt Gradle
 - settings.gradle.kts: khai báo các module trong dự án
+- result.docx: kết quả của app
 
 ## Chức năng
 
