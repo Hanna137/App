@@ -53,5 +53,7 @@ apptravel/
 
 
 ## Kết quả
-![Giao diện trang chủ](homescreen.jpg)
+markdown
+![giao diện trang chủ](images/homescreen.jpg)
+
 
