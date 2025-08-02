@@ -1,48 +1,51 @@
-# Travel App - Ho Chi Minh City 🇻🇳
+#Ứng dụng Du lịch - Thành phố Hồ Chí Minh 🇻🇳
 
-A mobile app built using Kotlinand Jetpack Compose, providing travel information for various cultural and entertainment spots in Ho Chi Minh City, Vietnam.
+Một ứng dụng di động được xây dựng bằng Kotlinand Jetpack Compose, cung cấp thông tin du lịch đến nhiều địa điểm văn hóa và giải trí khác nhau tại Thành phố Hồ Chí Minh, Việt Nam.
 
-## Features
+- .gitignore: Git giữ repo sạch, bỏ file tạm thời
+- apptravel.zip: bản nén mã nguồn (code)
+- build.gradle.kts: cấu hình build chính của dự án
+- gradle.properties: toàn cấu hình biến
+- gradlew(.bat): Công cụ xây dựng dự án mà không cần cài đặt Gradle
+- settings.gradle.kts: khai báo các module trong dự án
 
-- Interactive map with clickable markers for each destination.
-- Offline images and descriptions of famous places.
-- View detailed information for each place in a clean interface.
-- Navigate through different screens (Home, Main, About).
+## Chức năng
 
-## Project Structure
+- Bản đồ tương tác với các điểm đánh dấu có thể nhấp cho từng điểm đến.
+- Hình ảnh ngoại tuyến và mô tả về các địa điểm nổi tiếng.
+- Xem thông tin chi tiết cho từng địa điểm trong giao diện.
+- Điều hướng qua các màn hình khác nhau (HomeScreen, MainScreen, AboutScreen).
+
+## Cấu trúc dự án
 
 ```
 apptravel/
 ├── ui/
-│   ├── MainActivity.kt         # Entry point of the app
-│   ├── screen/
-│   │   ├── HomeScreen.kt       # The first screen, introducing the main functions of the application
-│   │   ├── AboutScreen.kt      # map + topic location filter buttons, information dialog box: displaying name + description + photo, GPS location button: navigating to the user's location.
-│   │   └── MainScreen.kt       # ntroducing members
-│   └── theme/
-│       ├── Color.kt
-│       ├── Theme.kt
-│       └── Type.kt             # Custom typography
+│ ├── MainActivity.kt # Điểm vào của ứng dụng
+│ ├── screen/
+│ │ ├── HomeScreen.kt # Màn hình đầu tiên, giới thiệu các chức năng chính của ứng dụng
+│ │ ├── MainScreen.kt # nút lọc vị trí bản đồ + chủ đề, hộp thoại thông tin: hiển thị tên + mô tả + ảnh, nút định vị GPS: điều hướng đến vị trí của người dùng.
+│ │ └── AboutScreen.kt # Giới thiệu thành viên
+│ └── theme/
+│ ├── Color.kt
+│ ├── Theme.kt
+│ └── Type.kt # Kiểu chữ tùy chỉnh
 
-
-## Tech Stack
+## Công nghệ sử dụng
 
 - Kotlin + Jetpack Compose
-- osmdroid for displaying map and markers
-- GeoJSON for spatial data
-- Assets for offline images and content
-- Modular architecture with Compose screens
+- osmdroid để hiển thị bản đồ và điểm đánh dấu
+- GeoJSON cho dữ liệu không gian
+- Assets cho hình ảnh và nội dung ngoại tuyến
 
-# How to Run
+# Cách chạy
 
-1. Clone or download this repository.
-2. Open the project in Android Studio (Arctic Fox or later).
-3. Connect an Android emulator or physical device.
-4. Build and run the app.
+1. Sao chép hoặc tải xuống kho lưu trữ này.
+2. Mở dự án trong Android Studio (Arctic Fox trở lên).
+3. Kết nối trình giả lập Android hoặc thiết bị vật lý.
+4. Chạy ứng dụng.
 
-##  Assets
+## Assets
 
-- All images are stored in the 'assets/images/' folder and loaded dynamically.
-- Place info is likely in a '.geojson' file, parsed on runtime.
-
-
+- Tất cả hình ảnh được lưu trữ trong thư mục 'assets/images/' và được tải động.
+- Thông tin địa điểm có thể nằm trong tệp '.geojson', được phân tích cú pháp khi chạy.
