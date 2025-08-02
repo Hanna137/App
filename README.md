@@ -1,4 +1,4 @@
-#Ứng dụng Du lịch - Thành phố Hồ Chí Minh 🇻🇳
+# APP MỘT SỐ ĐỊA ĐIỂM DU LỊCH TẠI TP.HCM
 
 Một ứng dụng di động được xây dựng bằng Kotlinand Jetpack Compose, cung cấp thông tin du lịch đến nhiều địa điểm văn hóa và giải trí khác nhau tại Thành phố Hồ Chí Minh, Việt Nam.
 
