@@ -50,7 +50,7 @@ apptravel/
 
 - Tất cả hình ảnh được lưu trữ trong thư mục 'assets/images/' và được tải động.
 - Thông tin địa điểm có thể nằm trong tệp '.geojson', được phân tích cú pháp khi chạy.
-
+```
 
 ![Image](https://github.com/user-attachments/assets/abf5aaa5-410c-493a-be84-7575f4e18211)
 
